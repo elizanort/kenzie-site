@@ -1,0 +1,93 @@
+/* Base Styles */
+body, *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+/* Layout Styles */
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container{
+    display: flex;
+    border-top: black;
+    border-bottom: black;
+    border-width: 1px;
+}
+
+.dates-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.comparison-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.story-container{
+    display: flex;
+    justify-content: center;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.studentvideo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    display: flex;
+}
+
+.application-container{
+    display: flex;
+}
+
+.application__checkboxes{
+    display: flex;
+}
+
+.questionaire{
+    display: flex;
+}
+/* Block Styles */
+
+.button{
+    background-color: navy;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.button__dates{
+    background-color: whitesmoke;
+    border: 2px solid navy;
+}
